@@ -34,15 +34,9 @@
               </a>
             </li>
             <li class="nav__item">
-              <a href="#collection" class="nav__link">
+              <a href="#featured" class="nav__link">
                 <i class="ri-book-3-line"></i>
-                <span>My Collection</span>
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#recommendation" class="nav__link">
-                <i class="ri-book-3-line"></i>
-                <span>Recommendation</span>
+                <span>Featured Books</span>
               </a>
             </li>
             <li class="nav__item">
@@ -51,21 +45,25 @@
                 <span>Discounted</span>
               </a>
             </li>
-            <li class="nav__item">
+            <!-- <li class="nav__item">
               <a href="#new" class="nav__link">
                 <i class="ri-bookmark-line"></i>
                 <span>New Books</span>
               </a>
-            </li>
+            </li> -->
           </ul>
         </div>
 
         <div class="nav__actions">
           <!--- search --->
-          <i class="ri-search-line search-button" id="search-button"></i>
+          <a href="Chatbot/Chatbot/templates/index.html"
+            ><i class="ri-robot-2-line"></i
+          ></a>
 
           <!--- login --->
-          <a href="Login and Registration Page/index.html"><i class="ri-user-line login-button" ></i></a>
+          <a href="Login and Registration Page/index.html"
+            ><i class="ri-user-line login-button"></i
+          ></a>
 
           <!--- theme --->
           <i class="ri-moon-line theme-button" id="theme-button"></i>
@@ -74,7 +72,7 @@
     </section>
 
     <!--=============== SEARCH  ===============-->
-    <div class="search" id="search-content">
+    <!-- <div class="search" id="search-content">
       <form action="" class="search__form">
         <i class="ri-search-line search__icon"></i>
 
@@ -86,7 +84,7 @@
       </form>
 
       <i class="ri-close-line search__close" id="search-close"></i>
-    </div>
+    </div> -->
 
     <!--=============== LOGIN  ===============-->
 
@@ -128,13 +126,12 @@
         </div>
 
         <div>
-            <button type="submit" class="login__button button">Submit</button>
+          <button type="submit" class="login__button button">Submit</button>
         </div>
       </form>
 
       <i class="ri-close-line login__close" id="login-close"></i>
     </div>
-
 
     <main class="main">
       <section class="home section" id="home">
@@ -151,7 +148,7 @@
               discount and much more
             </p>
 
-            <a href="#" class="button">Explore Now</a>
+            <a href="collection.html" class="button">Explore Now</a>
           </div>
 
           <div class="home__images">
@@ -200,10 +197,9 @@
         </div>
       </section>
 
+      <!--=============== MY COLLECTIONS  ===============-->
 
-       <!--=============== MY COLLECTIONS  ===============-->
-
-       <section class="featured section" id="collection">
+      <!-- <section class="featured section" id="collection">
         <h2 class="section__title">My Collections</h2>
 
         <div class="featured__container container">
@@ -298,12 +294,12 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <!--=============== FEATURED  ===============-->
 
-      <section class="featured section" id="recommendation">
-        <h2 class="section__title">Recommendation</h2>
+      <section class="featured section" id="featured">
+        <h2 class="section__title">Featured Books</h2>
 
         <div class="featured__container container">
           <div class="featured__swiper swiper">
@@ -320,9 +316,7 @@
                 <button onclick="redirect()" class="button">Add To Cart</button>
 
                 <div class="featured__actions">
-                  <button><i class="ri-search-line"></i></button>
-                  <button onclick="window.location.href='feedback.html'"><i class="ri-feedback-line"></i></button>
-                  <button><i class="ri-eye-line"></i></button>
+                  <button><i class="ri-search-eye-line"></i></button>
                 </div>
               </article>
 
@@ -338,9 +332,7 @@
                 <button class="button">Add To Cart</button>
 
                 <div class="featured__actions">
-                  <button><i class="ri-search-line"></i></button>
-                  <button onclick="window.location.href='feedback.html'"><i class="ri-feedback-line"></i></button>
-                  <button><i class="ri-eye-line"></i></button>
+                  <button><i class="ri-search-eye-line"></i></button>
                 </div>
               </article>
 
@@ -356,9 +348,7 @@
                 <button class="button">Add To Cart</button>
 
                 <div class="featured__actions">
-                  <button><i class="ri-search-line"></i></button>
-                  <button onclick="window.location.href='feedback.html'"><i class="ri-feedback-line" ></i></button>
-                  <button><i class="ri-eye-line"></i></button>
+                  <button><i class="ri-search-eye-line"></i></button>
                 </div>
               </article>
 
@@ -374,9 +364,7 @@
                 <button class="button">Add To Cart</button>
 
                 <div class="featured__actions">
-                  <button><i class="ri-search-line"></i></button>
-                  <button onclick="window.location.href='feedback.html'"><i class="ri-feedback-line"></i></button>
-                  <button><i class="ri-eye-line"></i></button>
+                  <button><i class="ri-search-eye-line"></i></button>
                 </div>
               </article>
 
@@ -392,9 +380,7 @@
                 <button class="button">Add To Cart</button>
 
                 <div class="featured__actions">
-                  <button><i class="ri-search-line"></i></button>
-                  <button onclick="window.location.href='feedback.html'"><i class="ri-feedback-line"></i></button>
-                  <button><i class="ri-eye-line"></i></button>
+                  <button><i class="ri-search-eye-line"></i></button>
                 </div>
               </article>
 
@@ -410,9 +396,7 @@
                 <button class="button">Add To Cart</button>
 
                 <div class="featured__actions">
-                  <button><i class="ri-search-line"></i></button>
-                  <button onclick="window.location.href='feedback.html'"><i class="ri-feedback-line"></i></button>
-                  <button><i class="ri-eye-line"></i></button>
+                  <button><i class="ri-search-eye-line"></i></button>
                 </div>
               </article>
 
@@ -428,9 +412,7 @@
                 <button class="button">Add To Cart</button>
 
                 <div class="featured__actions">
-                  <button><i class="ri-search-line"></i></button>
-                  <button onclick="window.location.href='feedback.html'"><i class="ri-feedback-line"></i></button>
-                  <button><i class="ri-eye-line"></i></button>
+                  <button><i class="ri-search-eye-line"></i></button>
                 </div>
               </article>
 
@@ -446,9 +428,7 @@
                 <button class="button">Add To Cart</button>
 
                 <div class="featured__actions">
-                  <button><i class="ri-search-line"></i></button>
-                  <button onclick="window.location.href='feedback.html'"><i class="ri-feedback-line"></i></button>
-                  <button><i class="ri-eye-line"></i></button>
+                  <button><i class="ri-search-eye-line"></i></button>
                 </div>
               </article>
 
@@ -464,9 +444,7 @@
                 <button class="button">Add To Cart</button>
 
                 <div class="featured__actions">
-                  <button><i class="ri-search-line"></i></button>
-                  <button onclick="window.location.href='feedback.html'"><i class="ri-feedback-line"></i></button>
-                  <button><i class="ri-eye-line"></i></button>
+                  <button><i class="ri-search-eye-line"></i></button>
                 </div>
               </article>
 
@@ -482,9 +460,7 @@
                 <button class="button">Add To Cart</button>
 
                 <div class="featured__actions">
-                  <button><i class="ri-search-line"></i></button>
-                  <button onclick="window.location.href='feedback.html'"><i class="ri-feedback-line"></i></button>
-                  <button><i class="ri-eye-line"></i></button>
+                  <button><i class="ri-search-eye-line"></i></button>
                 </div>
               </article>
             </div>
@@ -513,7 +489,7 @@
               we have for you.
             </p>
 
-            <a href="#" class="button">Shop Now</a>
+            <a href="#featured" class="button">Shop Now</a>
           </div>
 
           <div class="discounted__images">
@@ -533,7 +509,7 @@
 
       <!--=============== NEW BOOKS  ===============-->
 
-      <section class="new section" id="new">
+      <!-- <section class="new section" id="new">
         <h2 class="section__title">New Books</h2>
 
         <div class="new__container container">
@@ -945,6 +921,26 @@
             </div>
           </div>
         </div>
+      </section> -->
+      <br />
+      <section class="contact" id="contact">
+        <h2 class="heading">Feedback <span>Form</span></h2>
+
+        <form action="#">
+          <div class="input-box">
+            <input type="text" placeholder="Full Name" />
+            <input type="email" placeholder="Email Address" />
+          </div>
+
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Your Message"
+          ></textarea>
+          <input type="submit" value="Send Feedback" class="button" />
+        </form>
       </section>
     </main>
 
@@ -1072,7 +1068,5 @@
     <script src="swiper-bundle.min.js"></script>
 
     <script src="script.js"></script>
-
-
   </body>
 </html>
