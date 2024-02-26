@@ -130,3 +130,4 @@ function displayError(message) {
     var resultDiv = document.getElementById('result');
     resultDiv.innerHTML = `<p style="color: red;">${message}</p>`;
 }
+
