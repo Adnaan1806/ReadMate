@@ -166,3 +166,16 @@ function redirect() {
   window.location.href = "https://checkout.stripe.com/c/pay/cs_test_a1t6sTNAtfgjJw1g9G1aPgyTG2jTLX8P83jQRZsHBwcXK1IW2mhVdY0Cmr#fidkdWxOYHwnPyd1blpxYHZxWjA0Sm0wdlRNXXBVZk9iMGZVUmJKZzBHbGhHNX9cNlJSUn1Hd3JmTkw3cWpkfU5%2FTGtCPVNGPHJXNjNzUWJ9Njxxf3NgSXxUPGBhZkRVXFM2PHwzUURDdWhBNTUxT3Y9SFU1bycpJ2N3amhWYHdzYHcnP3F3cGApJ2lkfGpwcVF8dWAnPyd2bGtiaWBabHFgaCcpJ2BrZGdpYFVpZGZgbWppYWB3dic%2FcXdwYHgl";
 }
 
+
+function openMsgBox() {
+  document.querySelector(".msg-btn5").style.opacity = "0";
+
+  document.querySelector(".containerQ").style.clipPath = "circle(75%)";
+}
+
+function closeChat() {
+  document.querySelector(".containerQ").style.clipPath =
+    "circle(0% at 90% 95%)";
+
+  document.querySelector(".msg-btn5").style.opacity = "1";
+}
