@@ -1058,3 +1058,24 @@ form .textarea textarea{
   cursor: pointer;
   
 }
+
+.msg-btn5 {
+  background-color: #44df07;
+  color: white;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 35px;
+  padding: 10px;
+  cursor: pointer;
+  justify-self: flex-end;
+  position: absolute;
+  right: 20px;
+  bottom: 40px;
+  margin-top: 0px;
+  transition-delay: 0;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5);
+}
+
